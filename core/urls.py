@@ -7,4 +7,5 @@ urlpatterns = [
     # path(
     #     "requests/<int:pk>/", views.RequestDetailView.as_view(), name="request-detail"
     # ),
+    path("contact/", views.list_contact, name="list-contact"),
 ]
